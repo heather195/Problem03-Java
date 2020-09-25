@@ -25,7 +25,7 @@ public class ArrayRotatorTest {
         int[] inputArray = {41, 73, 89, 7, 10, 1, 59, 58, 84, 77, 77, 97, 58, 1, 86, 58, 26, 10, 86, 51};
 
         int[] actual = rotator.rotateLeft(inputArray, rotateAmount);
-        int[] expected = {77, 97, 58, 1, 86, 58, 26, 10, 86, 51, 41, 73, 89, 7, 10, 1, 59, 58, 84, 7};
+        int[] expected = {77, 97, 58, 1, 86, 58, 26, 10, 86, 51, 41, 73, 89, 7, 10, 1, 59, 58, 84, 77};
 
         Assert.assertArrayEquals(expected, actual);
 
